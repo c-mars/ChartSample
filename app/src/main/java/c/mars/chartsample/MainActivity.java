@@ -60,12 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
         ColumnChartView chart = (ColumnChartView) findViewById(R.id.chart);
 
-
         Float[] usg={250f, 130f, 100f, 160f, 110f, 140f, 80f};
         List<Float> in = Arrays.asList(usg);
-//        for (int i = 0; i < 7; i++) {
-//            in.add((float) Math.random() * 300f + 5);
-//        }
         buildChart(chart, in);
     }
 }
